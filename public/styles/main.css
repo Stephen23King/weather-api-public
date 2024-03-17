@@ -1,0 +1,33 @@
+.bg-image {
+    background-image: url("/images/patternstars.png");
+    background-size: cover; /* Adjust the background image size to cover the entire viewport */
+    background-position: center;
+    opacity: 20;
+}
+
+.weather-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vw; /* Adjust font size dynamically based on viewport width */
+}
+
+#weather-info {
+    color: white;
+    font-family: "Gurajada", sans-serif;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+    padding: 1vw 3vw 1vw 3vw;
+    background: rgba(0, 0, 0, 0.959);
+    line-height: 1;
+    letter-spacing: 0.5px;
+}
+
+#city {
+    font-size: 6vw; /* Adjust city font size dynamically based on viewport width */
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+

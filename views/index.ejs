@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API Public</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gurajada&display=swap" rel="stylesheet">
+</head>
+<body class="bg-image">
+    <div class="weather-container" method="post">
+        <div id="weather-info">
+            <div class="weather-details">
+                <span id="city"><%= city %></span> <!-- Render dynamic city name -->
+                <div id="weather-text">Weather: <%= weather %></div> <!-- Render dynamic weather -->
+                <div id="temperature">Temperpature: <%= temperature %></div> <!-- Render dynamic temperature -->
+                <div id="humidity">Humidity: <%= humidity %></div> <!-- Render dynamic humidity -->
+                <div id="wind">Wind: <%= wind %></div> <!-- Render dynamic wind -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
